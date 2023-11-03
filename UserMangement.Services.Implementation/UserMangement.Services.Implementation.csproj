@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserManagement.Repositories.Abstraction\UserManagement.Repositories.Abstraction.csproj" />
+    <ProjectReference Include="..\UserMangement.Services.Abstraction\UserMangement.Services.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
